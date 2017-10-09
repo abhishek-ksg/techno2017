@@ -1,0 +1,47 @@
+<ion-header>  
+
+  <ion-navbar color="primary">
+    <ion-title>Ballot for Team: {{team.name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="no-scroll">
+
+  <ion-list>
+
+    <ion-list-header>Criterias: </ion-list-header>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Innovation (Max: 10 points) :</ion-label>
+      <ion-input type="number" [(ngModel)]="ballot.innovation" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Implementation (Max: 15 points) :</ion-label>
+      <ion-input type="number" [(ngModel)]="ballot.implementation" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Impact (Max: 10 points) :</ion-label>
+      <ion-input type="number" [(ngModel)]="ballot.impact" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Presentation (Max: 5 points) :</ion-label>
+      <ion-input type="number" [(ngModel)]="ballot.presentation" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Battle (Max: 10 points) :</ion-label>
+      <ion-input type="number" [(ngModel)]="ballot.battle" required> </ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <br><br>
+
+  <button ion-button block full (click)="submitTeamBallot()">Submit Ballot</button>
+
+</ion-content>

@@ -1,0 +1,52 @@
+<ion-header>  
+
+  <ion-navbar color="primary">
+    <ion-title>Standings</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="no-scroll">
+
+  <ion-card>
+
+    <ion-card-content>
+      Current Standings:    
+    </ion-card-content>
+  </ion-card>
+  
+
+  <ion-list>
+
+    <ion-item>
+
+      <ion-row>
+        <ion-col width-23>Team</ion-col>
+        <ion-col width-9>J1</ion-col>
+        <ion-col width-9>J2</ion-col>
+        <ion-col width-9>J3</ion-col>
+        <ion-col width-9>J4</ion-col>
+        <ion-col width-9>J5</ion-col>
+        <ion-col width-9>J6</ion-col>
+        <ion-col width-9>J7</ion-col>
+        <ion-col width-14>T</ion-col>
+      </ion-row>
+    </ion-item>
+    <ion-item *ngFor="let team of teams">
+
+      <ion-row>
+        <ion-col width-23>{{team.detail.name}}</ion-col>
+        <ion-col width-9>{{team.ballot.judge1.total}}</ion-col>
+        <ion-col width-9>{{team.ballot.judge2.total}}</ion-col>
+        <ion-col width-9>{{team.ballot.judge3.total}}</ion-col>
+        <ion-col width-9>{{team.ballot.judge4.total}}</ion-col>
+        <ion-col width-9>{{team.ballot.judge5.total}}</ion-col>
+        <ion-col width-9>{{team.ballot.judge6.total}}</ion-col>
+        <ion-col width-9>{{team.ballot.judge7.total}}</ion-col>
+        <ion-col width-14>{{team.ballot.judge1.total + team.ballot.judge2.total + team.ballot.judge3.total + team.ballot.judge4.total + team.ballot.judge5.total + team.ballot.judge6.total + team.ballot.judge7.total}}</ion-col>
+      </ion-row>
+    
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,564 @@
+{
+	"teams": [{
+			"id": "1001",
+			"name": "Team 1"
+		},
+		{
+			"id": "1002",
+			"name": "Team 2"
+		},
+		{
+			"id": "1003",
+			"name": "Team 3"
+		},
+		{
+			"id": "1004",
+			"name": "Team 4"
+		},
+		{
+			"id": "1005",
+			"name": "Team 5"
+		},
+		{
+			"id": "1006",
+			"name": "Team 6"
+		},
+		{
+			"id": "1007",
+			"name": "Team 7"
+		}
+	],
+	"team-data": {
+		"1001": {
+			"detail": {
+				"name": "Team 1",
+				"id": "1001",
+				"member1": "Team1 A",
+				"member2": "Team1 B",
+				"member3": "Team1 C",
+				"superTotal": 0
+			},
+			"ballot": {
+				"judge1": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge2": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge3": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge4": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge5": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge6": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge7": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				}
+			}
+
+		},
+		"1002": {
+			"detail": {
+				"name": "Team 2",
+				"id": "1002",
+				"member1": "Team2 A",
+				"member2": "Team2 B",
+				"member3": "Team2 C",
+				"superTotal": 0
+			},
+			"ballot": {
+				"judge1": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge2": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge3": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge4": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge5": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge6": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge7": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				}
+			}
+
+		},
+		"1003": {
+			"detail": {
+				"name": "Team 3",
+				"id": "1003",
+				"member1": "Team3 A",
+				"member2": "Team3 B",
+				"member3": "Team3 C",
+				"superTotal": 0
+			},
+			"ballot": {
+				"judge1": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge2": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge3": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge4": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge5": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge6": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge7": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				}
+			}
+
+		},
+		"1004": {
+			"detail": {
+				"name": "Team 4",
+				"id": "1004",
+				"member1": "Team4 A",
+				"member2": "Team4 B",
+				"member3": "Team4 C",
+				"superTotal": 0
+			},
+			"ballot": {
+				"judge1": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge2": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge3": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge4": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge5": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge6": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge7": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				}
+			}
+
+		},
+		"1005": {
+			"detail": {
+				"name": "Team 5",
+				"id": "1005",
+				"member1": "Team5 A",
+				"member2": "Team5 B",
+				"member3": "Team5 C",
+				"superTotal": 0
+			},
+			"ballot": {
+				"judge1": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge2": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge3": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge4": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge5": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge6": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge7": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				}
+			}
+
+		},
+		"1006": {
+			"detail": {
+				"name": "Team 6",
+				"id": "1006",
+				"member1": "Team6 A",
+				"member2": "Team6 B",
+				"member3": "Team6 C",
+				"superTotal": 0
+			},
+			"ballot": {
+				"judge1": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge2": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge3": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge4": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge5": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge6": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge7": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				}
+			}
+
+		},
+		"1007": {
+			"detail": {
+				"name": "Team 7",
+				"id": "1007",
+				"member1": "Team7 A",
+				"member2": "Team7 B",
+				"member3": "Team7 C",
+				"superTotal": 0
+			},
+			"ballot": {
+				"judge1": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge2": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge3": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge4": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge5": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge6": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				},
+				"judge7": {
+					"total": 0,
+					"savedCount": 0,
+					"innovation": "",
+					"implementation": "",
+					"impact": "",
+					"presentation": "",
+					"battle": ""
+				}
+			}
+		}
+	}
+}
