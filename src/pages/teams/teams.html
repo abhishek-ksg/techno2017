@@ -1,4 +1,4 @@
-<ion-header>
+<!--<ion-header>
   <ion-navbar color="primary">
 
     <ion-title>Technophilia 2017</ion-title>
@@ -7,42 +7,70 @@
   <ion-toolbar color="secondary">
     <ion-title>{{pageTitle}}</ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header>-->
 
-<ion-content padding class="no-scroll">
+<ion-content class="no-scroll">
 
   <ion-list *ngIf="judgeId">
 
-    <p>List of participating team in Technophilia 2017</p>
-    <p>Click on Team for Team's Ballot after the team has presented</p>
+    <ion-card *ngIf="!superJudgeId">
+        <ion-card-header>
+          Welcome {{judgeName}},
+        </ion-card-header>
+        <ion-card-content>
+          <button ion-button full block (click)="getStandingsForJudge()">View Standings</button>
+        </ion-card-content>
+    </ion-card>
 
-    <button ion-item *ngFor="let team of teams" (click)="goToTeamBallot(event, team)">
-      <ion-icon name="people"></ion-icon>
-      {{team.name}}
-    </button>
-
+    <ion-card *ngIf="!superJudgeId">
+        <ion-card-header>
+          Click on Team for Team's Ballot
+        </ion-card-header>
+        <ion-card-content>
+          <button ion-item *ngFor="let team of teams" (click)="goToTeamBallot(event, team)">
+            <ion-icon name="people"></ion-icon>
+            {{team.name}} : {{team.project}}
+          </button>
+        </ion-card-content>
+    </ion-card>
+    
     <ion-item *ngIf="superJudgeId"> 
-
-      <button ion-button full block (click)="getStandingsForSuperAdmin()">View Standings</button>
-
+      <ion-card>
+        <ion-card-header>
+          Welcome SuperUser,
+        </ion-card-header>
+        <ion-card-content>
+          <button ion-button full block (click)="getStandingsForSuperAdmin()">View Standings</button>
+        </ion-card-content>
+      </ion-card>
     </ion-item>
 
   </ion-list>
 
   <ion-list *ngIf="!judgeId">
 
-    <ion-item>
-      <ion-label color="primary" stacked>Please enter the Judge's Id:</ion-label>
-      <ion-input type="text" [(ngModel)]="userId" required></ion-input>
-    </ion-item>
+    <ion-card>
+      <ion-card-header>
+        <ion-label color="primary" stacked>Please enter the Judge's Id:</ion-label>
+      </ion-card-header>
+        
+      <ion-card-content>
+        <ion-input type="text" [(ngModel)]="userId" required></ion-input>
+        <br><br>
+
+        <button ion-button block round (click)="login()">Judge Login</button>  
+
+      </ion-card-content>
+    </ion-card>
+
+
 
     <ion-item>
-      <br><br>
-
-      <button ion-button block round (click)="login()">Judge Login</button> 
+      
+      <ion-label color="primary" stacked>Note: Please check your mailbox to know Judge's Id.</ion-label>
+      
     </ion-item>
 
   </ion-list>
 
 </ion-content>
-

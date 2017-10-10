@@ -1,0 +1,48 @@
+<ion-header>  
+
+  <ion-navbar color="primary">
+    <ion-title>Standings</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="no-scroll">
+
+  <ion-card>
+
+    <ion-card-content>
+      Current Standings:    
+    </ion-card-content>
+  </ion-card>
+  
+
+  <ion-list>
+
+    <ion-item>
+
+      <ion-row>
+        <ion-col width-20>Team</ion-col>
+        <ion-col width-10>C1</ion-col>
+        <ion-col width-10>C2</ion-col>
+        <ion-col width-10>C3</ion-col>
+        <ion-col width-10>C4</ion-col>
+        <ion-col width-10>C5</ion-col>
+        <ion-col width-10>T</ion-col>
+      </ion-row>
+    </ion-item>
+    <ion-item *ngFor="let ballot of techService.allBallots">
+
+      <ion-row>
+        <ion-col width-20>{{ballot.proj}}</ion-col>
+        <ion-col width-10>{{ballot.innovation}}</ion-col>
+        <ion-col width-10>{{ballot.implementation}}</ion-col>
+        <ion-col width-10>{{ballot.impact}}</ion-col>
+        <ion-col width-10>{{ballot.presentation}}</ion-col>
+        <ion-col width-10>{{ballot.battle}}</ion-col>
+        <ion-col width-10>{{ballot.total}}</ion-col>
+      </ion-row>
+    
+    </ion-item>
+  </ion-list>
+</ion-content>

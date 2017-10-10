@@ -1,45 +1,56 @@
 {
 	"teams": [{
-			"id": "1001",
-			"name": "Team 1"
+			"id": "ninja",
+			"name": "Ninja Turtles",
+			"project": "Schemagica",
+			"proj": "Schema.."
 		},
 		{
-			"id": "1002",
-			"name": "Team 2"
+			"id": "power",
+			"name": "Power Rangers",
+			"project": "Topic from Research Documents",
+			"proj": "Research"
 		},
 		{
-			"id": "1003",
-			"name": "Team 3"
+			"id": "wild",
+			"name": "Wild C.A.T.S",
+			"project": "Robo VC",
+			"proj": "Robo VC"
 		},
 		{
-			"id": "1004",
-			"name": "Team 4"
+			"id": "thunder",
+			"name": "Thunder Cats",
+			"project": "Goalman",
+			"proj": "Goalman"
 		},
 		{
-			"id": "1005",
-			"name": "Team 5"
+			"id": "batman",
+			"name": "Batman",
+			"project": "Matchmaker",
+			"proj": "Matchm.."
 		},
 		{
-			"id": "1006",
-			"name": "Team 6"
+			"id": "swat",
+			"name": "Swat Kats",
+			"project": "MSFS - Portfolio Analysis",
+			"proj": "MSFS PA"
 		},
 		{
-			"id": "1007",
-			"name": "Team 7"
+			"id": "fantastic",
+			"name": "Fantastic Four",
+			"project": "BOLT",
+			"proj": "BOLT"
 		}
 	],
 	"team-data": {
-		"1001": {
+		"ninja": {
 			"detail": {
-				"name": "Team 1",
-				"id": "1001",
-				"member1": "Team1 A",
-				"member2": "Team1 B",
-				"member3": "Team1 C",
-				"superTotal": 0
+				"name": "Ninja Turtles",
+				"id": "ninja",
+				"proj": "Schema.."				
 			},
 			"ballot": {
-				"judge1": {
+				"cmantena": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -48,7 +59,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge2": {
+				"pgupta": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -57,7 +68,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge3": {
+				"rajmat": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -66,7 +77,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge4": {
+				"lokgup": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -75,7 +86,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge5": {
+				"ketanpar": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -84,7 +95,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge6": {
+				"francis": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -93,7 +104,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge7": {
+				"clifford": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -105,17 +116,14 @@
 			}
 
 		},
-		"1002": {
+		"power": {
 			"detail": {
-				"name": "Team 2",
-				"id": "1002",
-				"member1": "Team2 A",
-				"member2": "Team2 B",
-				"member3": "Team2 C",
-				"superTotal": 0
+				"name": "Power Rangers",
+				"id": "power",
+				"proj": "Research"
 			},
 			"ballot": {
-				"judge1": {
+				"cmantena": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -124,7 +132,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge2": {
+				"pgupta": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -133,7 +141,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge3": {
+				"rajmat": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -142,7 +150,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge4": {
+				"lokgup": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -151,7 +159,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge5": {
+				"ketanpar": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -160,7 +168,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge6": {
+				"francis": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -169,7 +177,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge7": {
+				"clifford": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -181,17 +189,14 @@
 			}
 
 		},
-		"1003": {
+		"wild": {
 			"detail": {
-				"name": "Team 3",
-				"id": "1003",
-				"member1": "Team3 A",
-				"member2": "Team3 B",
-				"member3": "Team3 C",
-				"superTotal": 0
+				"name": "Wild C.A.T.S",
+				"id": "wild",
+				"proj": "Robo VC"
 			},
 			"ballot": {
-				"judge1": {
+				"cmantena": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -200,7 +205,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge2": {
+				"pgupta": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -209,7 +214,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge3": {
+				"rajmat": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -218,7 +223,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge4": {
+				"lokgup": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -227,7 +232,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge5": {
+				"ketanpar": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -236,7 +241,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge6": {
+				"francis": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -245,7 +250,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge7": {
+				"clifford": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -257,17 +262,14 @@
 			}
 
 		},
-		"1004": {
+		"thunder": {
 			"detail": {
-				"name": "Team 4",
-				"id": "1004",
-				"member1": "Team4 A",
-				"member2": "Team4 B",
-				"member3": "Team4 C",
-				"superTotal": 0
+				"name": "Thunder Cats",
+				"id": "thunder",
+				"proj": "Goalman"
 			},
 			"ballot": {
-				"judge1": {
+				"cmantena": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -276,7 +278,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge2": {
+				"pgupta": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -285,7 +287,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge3": {
+				"rajmat": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -294,7 +296,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge4": {
+				"lokgup": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -303,7 +305,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge5": {
+				"ketanpar": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -312,7 +314,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge6": {
+				"francis": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -321,7 +323,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge7": {
+				"clifford": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -333,17 +335,14 @@
 			}
 
 		},
-		"1005": {
+		"batman": {
 			"detail": {
-				"name": "Team 5",
-				"id": "1005",
-				"member1": "Team5 A",
-				"member2": "Team5 B",
-				"member3": "Team5 C",
-				"superTotal": 0
+				"name": "Batman",
+				"id": "batman",
+				"proj": "Matchm.."
 			},
 			"ballot": {
-				"judge1": {
+				"cmantena": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -352,7 +351,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge2": {
+				"pgupta": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -361,7 +360,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge3": {
+				"rajmat": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -370,7 +369,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge4": {
+				"lokgup": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -379,7 +378,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge5": {
+				"ketanpar": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -388,7 +387,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge6": {
+				"francis": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -397,7 +396,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge7": {
+				"clifford": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -409,17 +408,14 @@
 			}
 
 		},
-		"1006": {
+		"swat": {
 			"detail": {
-				"name": "Team 6",
-				"id": "1006",
-				"member1": "Team6 A",
-				"member2": "Team6 B",
-				"member3": "Team6 C",
-				"superTotal": 0
+				"name": "Swat Kats",
+				"id": "swat",
+				"proj": "MSFS PA"
 			},
 			"ballot": {
-				"judge1": {
+				"cmantena": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -428,7 +424,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge2": {
+				"pgupta": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -437,7 +433,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge3": {
+				"rajmat": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -446,7 +442,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge4": {
+				"lokgup": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -455,7 +451,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge5": {
+				"ketanpar": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -464,7 +460,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge6": {
+				"francis": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -473,7 +469,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge7": {
+				"clifford": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -485,17 +481,14 @@
 			}
 
 		},
-		"1007": {
+		"fantastic": {
 			"detail": {
-				"name": "Team 7",
-				"id": "1007",
-				"member1": "Team7 A",
-				"member2": "Team7 B",
-				"member3": "Team7 C",
-				"superTotal": 0
+				"name": "Fantastic Four",
+				"id": "fantastic",
+				"proj": "BOLT"
 			},
 			"ballot": {
-				"judge1": {
+				"cmantena": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -504,7 +497,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge2": {
+				"pgupta": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -513,7 +506,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge3": {
+				"rajmat": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -522,7 +515,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge4": {
+				"lokgup": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -531,7 +524,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge5": {
+				"ketanpar": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -540,7 +533,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge6": {
+				"francis": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -549,7 +542,7 @@
 					"presentation": "",
 					"battle": ""
 				},
-				"judge7": {
+				"clifford": {
 					"total": 0,
 					"savedCount": 0,
 					"innovation": "",
@@ -560,5 +553,34 @@
 				}
 			}
 		}
-	}
+	},
+	"judges": [{
+			"id": "cmantena",
+			"name": "Chakra"
+		},
+		{
+			"id": "pgupta",
+			"name": "Pankaj"
+		},
+		{
+			"id": "rajmat",
+			"name": "Rajat"
+		},
+		{
+			"id": "lokgup",
+			"name": "Lokesh"
+		},
+		{
+			"id": "ketanpar",
+			"name": "Ketan"
+		},
+		{
+			"id": "francis",
+			"name": "Daryl"
+		},
+		{
+			"id": "clifford",
+			"name": "Clifford"
+		}
+	]
 }

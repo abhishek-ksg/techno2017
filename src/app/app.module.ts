@@ -9,6 +9,7 @@ import { ListPage } from '../pages/list/list';
 import { Ballots } from '../pages/ballots/ballots';
 import { Standings } from '../pages/standings/standings';
 import { Teams } from '../pages/teams/teams';
+import { Judgestandings } from '../pages/judgestandings/judgestandings';
 
 import { TechService } from '../shared/techService';
 
@@ -22,7 +23,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     Ballots,
     Standings,
-    Teams
+    Teams,
+    Judgestandings
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     Ballots,
     Standings,
-    Teams
+    Teams,
+    Judgestandings
   ],
   providers: [
     StatusBar,

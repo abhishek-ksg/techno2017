@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, LoadingController, AlertController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController, AlertController, ToastController } from 'ionic-angular';
 
 import { TechService } from '../../shared/techService'
 
@@ -17,6 +17,7 @@ export class Ballots {
   ballot: any = {};
 
   constructor(
+    public toastController: ToastController,
     public alertController: AlertController,
     public navCtrl: NavController, 
     private navParam: NavParams, 
@@ -73,8 +74,14 @@ export class Ballots {
         alert.present();
     }
     else {
+      let toast = this.toastController.create({
+        message: "Ballot submitted for Team: " + this.team.name,
+        duration: 2000,
+        position: 'botton'
+      });
+
       var total = Number(this.ballot.innovation) + Number(this.ballot.implementation) + Number(this.ballot.impact) + Number(this.ballot.presentation) + Number(this.ballot.battle);
-      ref.update( {
+      var ballotObject = {
           "total": total,
 					"savedCount": ++this.ballot.savedCount,
 					"innovation": this.ballot.innovation,
@@ -82,7 +89,9 @@ export class Ballots {
 					"impact": this.ballot.impact,
 					"presentation": this.ballot.presentation,
 					"battle": this.ballot.battle
-      });  
+      };
+      ref.update( ballotObject );    
+      toast.present();
     }
     
   }

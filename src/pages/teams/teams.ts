@@ -3,7 +3,9 @@ import { NavController, LoadingController, AlertController } from 'ionic-angular
 
 import { Ballots } from '../ballots/ballots'
 import { Standings } from '../standings/standings'
+import { Judgestandings } from '../judgestandings/judgestandings'
 import { TechService } from '../../shared/techService'
+
 
 @Component({
   selector: 'page-teams',
@@ -15,12 +17,13 @@ export class Teams {
   
   teams : any;
   userId : string = "";
+  judgeName : string = "";
   judgeId : string = "";
   superJudgeId : string = "";
   pageTitle: string = "Judge's Login";
 
-  eligibleJudgeId = ['judge1', 'judge2', 'judge3', 'judge4', 'judge5', 'judge6', 'judge7'];
-  superUser = "superAdmin"
+  eligibleJudges : any;
+  superUser = "superuser";
 
   constructor(
     private alertController: AlertController,
@@ -40,8 +43,17 @@ export class Teams {
       this.techService.getTeams().then( data => {
 
         this.teams = data;
+        this.techService.allTeams = this.teams;
+        
+      } ).then( () => {
+        this.techService.getJudges().then( data => {
+
+        this.eligibleJudges = data;
         loader.dismiss();
+        } );      
       } );
+
+      
     });    
   }
 
@@ -53,8 +65,14 @@ export class Teams {
     this.navCtrl.push(Standings);
   }
 
+  getStandingsForJudge(){
+    this.navCtrl.push(Judgestandings);
+  }
+
   login(){
-      if( this.eligibleJudgeId.indexOf(this.userId) != -1){
+
+     this.userId = this.userId.toLowerCase();  
+      if( this.checkValidJudge() ){
         this.techService.judgeId = this.userId;
         this.judgeId = this.techService.judgeId;
         this.pageTitle = "Teams";
@@ -75,5 +93,19 @@ export class Teams {
         alert.present();
         this.userId = "";
       }
+  }
+
+  checkValidJudge() : boolean{
+    var validJudge : boolean = false;
+    if(this.eligibleJudges && this.eligibleJudges.length){
+      for(var i=0; i<this.eligibleJudges.length; i++){
+        if(this.userId === this.eligibleJudges[i].id){
+          validJudge = true;
+          this.judgeName = this.eligibleJudges[i].name;
+          break;
+        }
+      }
+    }
+    return validJudge;
   }
 }

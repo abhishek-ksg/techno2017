@@ -1,40 +1,45 @@
 <ion-header>  
 
   <ion-navbar color="primary">
-    <ion-title>Ballot for Team: {{team.name}}</ion-title>
+    <ion-title>Ballot for: {{team.name}}</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding class="no-scroll">
+<ion-content padding class="no-scroll" no-bounce>
 
   <ion-list>
+
+    <ion-item>
+      <ion-label color="primary" stacked>Project : {{team.project}}</ion-label>
+      
+    </ion-item>
 
     <ion-list-header>Criterias: </ion-list-header>
 
     <ion-item>
-      <ion-label color="primary" stacked>Innovation (Max: 10 points) :</ion-label>
+      <ion-label color="primary" stacked>C1- Innovation (Max: 10 points) :</ion-label>
       <ion-input type="number" [(ngModel)]="ballot.innovation" required></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label color="primary" stacked>Implementation (Max: 15 points) :</ion-label>
+      <ion-label color="primary" stacked>C2- Implementation (Max: 15 points) :</ion-label>
       <ion-input type="number" [(ngModel)]="ballot.implementation" required></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label color="primary" stacked>Impact (Max: 10 points) :</ion-label>
+      <ion-label color="primary" stacked>C3- Impact (Max: 10 points) :</ion-label>
       <ion-input type="number" [(ngModel)]="ballot.impact" required></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label color="primary" stacked>Presentation (Max: 5 points) :</ion-label>
+      <ion-label color="primary" stacked>C4- Presentation (Max: 5 points) :</ion-label>
       <ion-input type="number" [(ngModel)]="ballot.presentation" required></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label color="primary" stacked>Battle (Max: 10 points) :</ion-label>
+      <ion-label color="primary" stacked>C5- Battle (Max: 10 points) :</ion-label>
       <ion-input type="number" [(ngModel)]="ballot.battle" required> </ion-input>
     </ion-item>
 
@@ -42,6 +47,7 @@
 
   <br><br>
 
-  <button ion-button block full (click)="submitTeamBallot()">Submit Ballot</button>
+  <button ion-button block full (click)="submitTeamBallot()" *ngIf="!ballot.savedCount">Submit Ballot</button>
+  <button ion-button block full (click)="submitTeamBallot()" *ngIf="ballot.savedCount">Update Ballot</button>
 
 </ion-content>

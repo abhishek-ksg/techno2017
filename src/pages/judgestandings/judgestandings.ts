@@ -4,14 +4,14 @@ import { NavController, NavParams, LoadingController, AlertController } from 'io
 import { TechService } from '../../shared/techService'
 
 @Component({
-  selector: 'page-standings',
-  templateUrl: 'standings.html',
+  selector: 'page-judgestandings',
+  templateUrl: 'judgestandings.html',
 })
 
 
-export class Standings {
+export class Judgestandings {
 
-  teams : any[];
+  teamBallots : any[];
   
   constructor(
     private techService: TechService,
@@ -23,31 +23,18 @@ export class Standings {
 
   ionViewDidEnter(){
 
-    this.teams = [];
-
     let loader = this.loadingController.create({
-       content: 'Loading Standings...' 
-    });
-
-    loader.present().then( () => {
-
-      this.techService.getTeamSuperData().then( data => {
-        
-        if(data){
-
-          var res = [];
-          for (var x in data){
-            data.hasOwnProperty(x) && res.push(data[x])
-          }
-
-          this.teams = res;
-        }
-
-        loader.dismiss();
-      });
+       content: 'Fetching Ballots...' 
     });
 
     
-  }
+    loader.present().then( () => {
+      this.techService.getAllBallotsArray();
 
+      console.log("Ballots length " + this.techService.allBallots.length);
+      loader.dismiss();
+    }); 
+    console.log("test");
+
+  }
 }
